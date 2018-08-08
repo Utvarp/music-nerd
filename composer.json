@@ -1,0 +1,25 @@
+{
+    "name": "utvarp/music-nerd",
+    "type": "library",
+    "description": "When you want to get music information, like a real music nerd.",
+    "keywords": ["music","metadata","song","artist"],
+    "homepage": "https://utvarp.co",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.0",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Utvarp\\MusicNerd": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean-Philippe Murray",
+            "email": "jp@utvarp.co",
+            "homepage": "https://utvarp.co",
+            "role": "Developer"
+        }
+    ]
+}
