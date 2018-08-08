@@ -3,17 +3,19 @@
     "type": "library",
     "description": "When you want to get music information, like a real music nerd.",
     "keywords": ["music","metadata","song","artist"],
-    "homepage": "https://utvarp.co",
+    "homepage": "https://github.com/Utvarp/music-nerd",
     "license": "MIT",
     "require": {
         "php": ">=7.2.0",
-        "vlucas/phpdotenv": "^2.5"
+        "vlucas/phpdotenv": "^2.5",
+        "jwilsson/spotify-web-api-php": "dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "Utvarp\\MusicNerd": "src/"
+        "psr-4": {
+            "MusicNerd\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Jean-Philippe Murray",
